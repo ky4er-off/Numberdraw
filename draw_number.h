@@ -30,7 +30,7 @@ STATUS draw_digit_scaled(unsigned char *frame, int digit, int start_x, int start
 /// @param spacing      Расстояние между цифрами(в пикселях)
 /// @param frame_width  Ширина кадра
 /// @param frame_height Высота кадра
-void draw_number_scaled(unsigned char *frame, int start_x, int start_y, int number, int scale, int spacing, 
+STATUS draw_number_scaled(unsigned char *frame, int start_x, int start_y, int number, int scale, int spacing, 
                                                                         int frame_width, int frame_height);
 
 /// @brief Основная функция отрисовки индикатора скорости
