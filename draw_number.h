@@ -1,5 +1,5 @@
-#ifndef _SPEEDOMETER_H_
-#define _SPEEDOMETER_H_
+#ifndef _DRAW_NUMBER_H_
+#define _DRAW_NUMBER_H_
 
 #ifdef __cplusplus
 extern "C" {
